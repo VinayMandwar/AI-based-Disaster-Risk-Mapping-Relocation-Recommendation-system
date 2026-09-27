@@ -13,6 +13,7 @@ from app.models.entities import (
     RelocationRecommendation,
     Alert,
     AuditLog,
+    Complaint,
 )
 
 __all__ = [
@@ -30,4 +31,5 @@ __all__ = [
     "RelocationRecommendation",
     "Alert",
     "AuditLog",
+    "Complaint",
 ]
