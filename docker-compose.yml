@@ -1,0 +1,64 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: hazardshield_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: hazardshield_user
+      POSTGRES_PASSWORD: hazardshield_password
+      POSTGRES_DB: hazardshield_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hazardshield_user -d hazardshield_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - hazardshield_net
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: hazardshield_backend
+    restart: unless-stopped
+    environment:
+      ENVIRONMENT: development
+      DATABASE_URL: postgresql+psycopg://hazardshield_user:hazardshield_password@postgres:5432/hazardshield_db
+      SECRET_KEY: demo_secret_key_change_in_production_hazardshield_2026
+      BACKEND_HOST: 0.0.0.0
+      BACKEND_PORT: 8000
+    ports:
+      - "8001:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - hazardshield_net
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: hazardshield_frontend
+    restart: unless-stopped
+    environment:
+      NEXT_PUBLIC_API_URL: http://localhost:8001
+      PORT: 3000
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - hazardshield_net
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  hazardshield_net:
+    driver: bridge

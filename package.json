@@ -1,0 +1,15 @@
+{
+  "name": "aashray",
+  "version": "1.0.0",
+  "description": "Aashray: AI-Based Disaster Risk Mapping & Relocation Recommendation System (SIH 26191)",
+  "private": true,
+  "scripts": {
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "PYTHONPATH=backend ./backend/venv/bin/uvicorn app.main:app --host 0.0.0.0 --port 8001 --reload",
+    "build:frontend": "cd frontend && npm run build",
+    "db:migrate": "cd backend && ../backend/venv/bin/alembic upgrade head",
+    "db:seed": "PYTHONPATH=backend ./backend/venv/bin/python -m app.db.seed_data",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "disclaimer": "DEMO DATA — NOT OFFICIAL GOVERNMENT DATA. All habitations, coordinates, population figures, and hazard vulnerability assessments are fictional illustrative records generated for SIH Problem Statement 26191 (Aashray).",
+  "project": "Aashray - AI-Based Disaster Risk Mapping & Relocation Recommendation System",
+  "sih_statement_id": "26191",
+  "team": "Foresight",
+  "generated_at": "2026-09-16T00:00:00Z",
+  "habitations": [
+    {
+      "name": "Nandi Gram Tola",
+      "code": "HAB-UK-CHM-01",
+      "village": "Nandikot",
+      "district": "Chamoli",
+      "state": "Uttarakhand",
+      "latitude": 30.4125,
+      "longitude": 79.3241,
+      "population": 480,
+      "housing_count": 92,
+      "status": "MONITORED",
+      "population_profile": {
+        "total_population": 480,
+        "children_count": 115,
+        "elderly_count": 84,
+        "women_count": 235,
+        "special_vulnerabilities_count": 28
+      },
+      "infrastructure_profile": {
+        "road_accessibility": 2,
+        "water_availability": 3,
+        "sanitation": 2,
+        "electricity": 3,
+        "healthcare_access": 1,
+        "shelter_availability": 2,
+        "housing_condition": 2
+      },
+      "hazard_assessment": {
+        "flood_risk": 0.88,
+        "landslide_risk": 0.94,
+        "erosion_risk": 0.82,
+        "earthquake_risk": 0.72,
+        "fire_risk": 0.25,
+        "heatwave_risk": 0.10,
+        "cyclone_risk": 0.05,
+        "primary_hazard": "Landslide & Riverine Slope Erosion"
+      },
+      "risk_score": {
+        "composite_score": 91.5,
+        "risk_level": "CRITICAL",
+        "notes": "Steep slope instability combined with severe riverbank toe erosion. Urgent relocation required."
+      },
+      "capacity_assessment": {
+        "carrying_capacity_people": 250,
+        "current_load": 480,
+        "capacity_stress_ratio": 1.92,
+        "status": "OVER_CAPACITY"
+      },
+      "relocation": {
+        "priority_level": "IMMEDIATE",
+        "people_to_relocate": 480,
+        "reason": "Severe slope toe erosion and imminent monsoon debris flow path",
+        "status": "PROPOSED"
+      }
+    },
+    {
+      "name": "Devprayag Ridge Basti",
+      "code": "HAB-UK-TEH-02",
+      "village": "Devikund",
+      "district": "Tehri Garhwal",
+      "state": "Uttarakhand",
+      "latitude": 30.1458,
+      "longitude": 78.5989,
+      "population": 620,
+      "housing_count": 130,
+      "status": "ACTIVE",
+      "population_profile": {
+        "total_population": 620,
+        "children_count": 140,
+        "elderly_count": 95,
+        "women_count": 310,
+        "special_vulnerabilities_count": 34
+      },
+      "infrastructure_profile": {
+        "road_accessibility": 2,
+        "water_availability": 2,
+        "sanitation": 3,
+        "electricity": 4,
+        "healthcare_access": 2,
+        "shelter_availability": 2,
+        "housing_condition": 3
+      },
+      "hazard_assessment": {
+        "flood_risk": 0.45,
+        "landslide_risk": 0.84,
+        "erosion_risk": 0.71,
+        "earthquake_risk": 0.78,
+        "fire_risk": 0.30,
+        "heatwave_risk": 0.15,
+        "cyclone_risk": 0.05,
+        "primary_hazard": "Landslide & Scarp Erosion"
+      },
+      "risk_score": {
+        "composite_score": 79.2,
+        "risk_level": "HIGH",
+        "notes": "Active fracture line and toe erosion detected on upper ridge terrace."
+      },
+      "capacity_assessment": {
+        "carrying_capacity_people": 450,
+        "current_load": 620,
+        "capacity_stress_ratio": 1.38,
+        "status": "STRESSED"
+      },
+      "relocation": {
+        "priority_level": "HIGH",
+        "people_to_relocate": 210,
+        "reason": "Upper terrace settlements directly below unstable scarp",
+        "status": "PROPOSED"
+      }
+    },
+    {
+      "name": "Varuna River Bank Pura",
+      "code": "HAB-UP-VAR-03",
+      "village": "Kalyanpur",
+      "district": "Varanasi",
+      "state": "Uttar Pradesh",
+      "latitude": 25.3370,
+      "longitude": 82.9780,
+      "population": 1250,
+      "housing_count": 260,
+      "status": "MONITORED",
+      "population_profile": {
+        "total_population": 1250,
+        "children_count": 320,
+        "elderly_count": 160,
+        "women_count": 605,
+        "special_vulnerabilities_count": 72
+      },
+      "infrastructure_profile": {
+        "road_accessibility": 4,
+        "water_availability": 4,
+        "sanitation": 2,
+        "electricity": 4,
+        "healthcare_access": 3,
+        "shelter_availability": 3,
+        "housing_condition": 2
+      },
+      "hazard_assessment": {
+        "flood_risk": 0.94,
+        "landslide_risk": 0.12,
+        "erosion_risk": 0.89,
+        "earthquake_risk": 0.35,
+        "fire_risk": 0.40,
+        "heatwave_risk": 0.82,
+        "cyclone_risk": 0.15,
+        "primary_hazard": "Riverine Flood & Severe Bank Erosion"
+      },
+      "risk_score": {
+        "composite_score": 85.8,
+        "risk_level": "CRITICAL",
+        "notes": "Low-lying floodplain settlement suffering acute riverbank cutting and perennial submersion."
+      },
+      "capacity_assessment": {
+        "carrying_capacity_people": 800,
+        "current_load": 1250,
+        "capacity_stress_ratio": 1.56,
+        "status": "OVER_CAPACITY"
+      },
+      "relocation": {
+        "priority_level": "IMMEDIATE",
+        "people_to_relocate": 650,
+        "reason": "Perennial embankment breach hazard and acute bank collapse",
+        "status": "PROPOSED"
+      }
+    },
+    {
+      "name": "Mandovi Estuary Ward 4",
+      "code": "HAB-GA-NG-04",
+      "village": "Ribandar Outer",
+      "district": "North Goa",
+      "state": "Goa",
+      "latitude": 15.5020,
+      "longitude": 73.8560,
+      "population": 780,
+      "housing_count": 175,
+      "status": "ACTIVE",
+      "population_profile": {
+        "total_population": 780,
+        "children_count": 160,
+        "elderly_count": 120,
+        "women_count": 390,
+        "special_vulnerabilities_count": 38
+      },
+      "infrastructure_profile": {
+        "road_accessibility": 4,
+        "water_availability": 4,
+        "sanitation": 4,
+        "electricity": 4,
+        "healthcare_access": 4,
+        "shelter_availability": 3,
+        "housing_condition": 3
+      },
+      "hazard_assessment": {
+        "flood_risk": 0.68,
+        "landslide_risk": 0.15,
+        "erosion_risk": 0.62,
+        "earthquake_risk": 0.20,
+        "fire_risk": 0.20,
+        "heatwave_risk": 0.45,
+        "cyclone_risk": 0.76,
+        "primary_hazard": "Coastal Surge & Tidal Erosion"
+      },
+      "risk_score": {
+        "composite_score": 67.4,
+        "risk_level": "MODERATE",
+        "notes": "Tidal ingress during severe low-pressure depressions."
+      },
+      "capacity_assessment": {
+        "carrying_capacity_people": 850,
+        "current_load": 780,
+        "capacity_stress_ratio": 0.92,
+        "status": "NORMAL"
+      },
+      "relocation": {
+        "priority_level": "LOW",
+        "people_to_relocate": 0,
+        "reason": "Standard seasonal advisory sufficient with mangrove buffer intact",
+        "status": "PROPOSED"
+      }
+    },
+    {
+      "name": "Baramulla Slope Mohalla",
+      "code": "HAB-JK-BAR-05",
+      "village": "Uplands Mohalla",
+      "district": "Baramulla",
+      "state": "Jammu and Kashmir",
+      "latitude": 34.2012,
+      "longitude": 74.3436,
+      "population": 540,
+      "housing_count": 110,
+      "status": "MONITORED",
+      "population_profile": {
+        "total_population": 540,
+        "children_count": 130,
+        "elderly_count": 75,
+        "women_count": 270,
+        "special_vulnerabilities_count": 24
+      },
+      "infrastructure_profile": {
+        "road_accessibility": 3,
+        "water_availability": 3,
+        "sanitation": 3,
+        "electricity": 3,
+        "healthcare_access": 2,
+        "shelter_availability": 2,
+        "housing_condition": 2
+      },
+      "hazard_assessment": {
+        "flood_risk": 0.35,
+        "landslide_risk": 0.89,
+        "erosion_risk": 0.76,
+        "earthquake_risk": 0.85,
+        "fire_risk": 0.40,
+        "heatwave_risk": 0.10,
+        "cyclone_risk": 0.05,
+        "primary_hazard": "Landslide & Geological Slope Degradation"
+      },
+      "risk_score": {
+        "composite_score": 88.0,
+        "risk_level": "CRITICAL",
+        "notes": "Unreinforced masonry structures situated on active slope erosion gullies."
+      },
+      "capacity_assessment": {
+        "carrying_capacity_people": 320,
+        "current_load": 540,
+        "capacity_stress_ratio": 1.69,
+        "status": "OVER_CAPACITY"
+      },
+      "relocation": {
+        "priority_level": "IMMEDIATE",
+        "people_to_relocate": 380,
+        "reason": "Immediate danger of catastrophic slope collapse during snowmelt",
+        "status": "PROPOSED"
+      }
+    },
+    {
+      "name": "Kaveri Delta Thottam",
+      "code": "HAB-TN-TNJ-06",
+      "village": "Thiruvaiyaru Lower",
+      "district": "Thanjavur",
+      "state": "Tamil Nadu",
+      "latitude": 10.8812,
+      "longitude": 79.1034,
+      "population": 890,
+      "housing_count": 210,
+      "status": "ACTIVE",
+      "population_profile": {
+        "total_population": 890,
+        "children_count": 190,
+        "elderly_count": 140,
+        "women_count": 445,
+        "special_vulnerabilities_count": 45
+      },
+      "infrastructure_profile": {
+        "road_accessibility": 4,
+        "water_availability": 4,
+        "sanitation": 3,
+        "electricity": 4,
+        "healthcare_access": 3,
+        "shelter_availability": 4,
+        "housing_condition": 4
+      },
+      "hazard_assessment": {
+        "flood_risk": 0.52,
+        "landslide_risk": 0.02,
+        "erosion_risk": 0.35,
+        "earthquake_risk": 0.15,
+        "fire_risk": 0.18,
+        "heatwave_risk": 0.65,
+        "cyclone_risk": 0.58,
+        "primary_hazard": "Seasonal Canals Drainage Congestion"
+      },
+      "risk_score": {
+        "composite_score": 48.2,
+        "risk_level": "SAFE_LOW",
+        "notes": "Well-maintained distributary canals and elevated community shelters."
+      },
+      "capacity_assessment": {
+        "carrying_capacity_people": 1100,
+        "current_load": 890,
+        "capacity_stress_ratio": 0.81,
+        "status": "NORMAL"
+      },
+      "relocation": {
+        "priority_level": "LOW",
+        "people_to_relocate": 0,
+        "reason": "Existing drainage buffer sufficient; regular embankment maintenance ongoing",
+        "status": "PROPOSED"
+      }
+    }
+  ],
+  "safe_zones": [
+    {
+      "name": "Chamoli Plateau Relief Hub",
+      "code": "SZ-UK-CHM-01",
+      "district": "Chamoli",
+      "state": "Uttarakhand",
+      "latitude": 30.4350,
+      "longitude": 79.3620,
+      "max_capacity": 1200,
+      "current_occupancy": 150,
+      "elevation_meters": 1640.0,
+      "status": "ACTIVE",
+      "safety_score": 94,
+      "road_access_score": 92,
+      "healthcare_score": 89,
+      "distance_km": 4.8
+    },
+    {
+      "name": "Tehri Bypass Multipurpose Center",
+      "code": "SZ-UK-TEH-02",
+      "district": "Tehri Garhwal",
+      "state": "Uttarakhand",
+      "latitude": 30.1620,
+      "longitude": 78.6250,
+      "max_capacity": 900,
+      "current_occupancy": 80,
+      "elevation_meters": 820.0,
+      "status": "ACTIVE",
+      "safety_score": 88,
+      "road_access_score": 85,
+      "healthcare_score": 80,
+      "distance_km": 6.2
+    },
+    {
+      "name": "Varanasi North Elevated Shelter Ground",
+      "code": "SZ-UP-VAR-03",
+      "district": "Varanasi",
+      "state": "Uttar Pradesh",
+      "latitude": 25.3620,
+      "longitude": 83.0040,
+      "max_capacity": 2500,
+      "current_occupancy": 320,
+      "elevation_meters": 88.0,
+      "status": "ACTIVE",
+      "safety_score": 91,
+      "road_access_score": 95,
+      "healthcare_score": 92,
+      "distance_km": 5.4
+    },
+    {
+      "name": "Baramulla District Sports Complex Shelter",
+      "code": "SZ-JK-BAR-04",
+      "district": "Baramulla",
+      "state": "Jammu and Kashmir",
+      "latitude": 34.2180,
+      "longitude": 74.3680,
+      "max_capacity": 1000,
+      "current_occupancy": 110,
+      "elevation_meters": 1590.0,
+      "status": "ACTIVE",
+      "safety_score": 89,
+      "road_access_score": 88,
+      "healthcare_score": 86,
+      "distance_km": 3.9
+    }
+  ],
+  "emergency_facilities": [
+    {
+      "name": "District Hospital Chamoli",
+      "facility_type": "HOSPITAL",
+      "district": "Chamoli",
+      "latitude": 30.4280,
+      "longitude": 79.3410,
+      "capacity": 150,
+      "contact_info": "+91-1372-252000 (DEMO)",
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Tehri Emergency Relief Camp Alpha",
+      "facility_type": "RELIEF_CAMP",
+      "district": "Tehri Garhwal",
+      "latitude": 30.1550,
+      "longitude": 78.6100,
+      "capacity": 400,
+      "contact_info": "+91-1376-233000 (DEMO)",
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Varanasi Civil Hospital Emergency Annex",
+      "facility_type": "HOSPITAL",
+      "district": "Varanasi",
+      "latitude": 25.3450,
+      "longitude": 82.9900,
+      "capacity": 350,
+      "contact_info": "+91-542-2500000 (DEMO)",
+      "status": "ACTIVE"
+    },
+    {
+      "name": "Baramulla Sub-Divisional Fire & Rescue Station",
+      "facility_type": "FIRE_STATION",
+      "district": "Baramulla",
+      "latitude": 34.2090,
+      "longitude": 74.3520,
+      "capacity": 45,
+      "contact_info": "+91-1952-234000 (DEMO)",
+      "status": "ACTIVE"
+    }
+  ],
+  "alerts": [
+    {
+      "title": "Chamoli High Slope Instability & Erosion Warning",
+      "message": "DEMO NOTICE: Geological monitoring triggers Amber/Red threshold for Nandi Gram Tola due to intense antecedent rainfall and rapid toe erosion.",
+      "severity": "CRITICAL",
+      "alert_type": "LANDSLIDE_WARNING",
+      "habitation_code": "HAB-UK-CHM-01",
+      "is_active": true
+    },
+    {
+      "title": "Varuna River Bank Level & Scour Advisory",
+      "message": "DEMO NOTICE: Water level in Varuna basin approaching warning mark; acute bank cutting flags immediate evacuation advisory.",
+      "severity": "HIGH",
+      "alert_type": "FLOOD_ALERT",
+      "habitation_code": "HAB-UP-VAR-03",
+      "is_active": true
+    },
+    {
+      "title": "Baramulla Seismic Vulnerability Advisory",
+      "message": "DEMO NOTICE: Structural audit flags unreinforced buildings along fault line in Uplands Mohalla with severe gully erosion.",
+      "severity": "CRITICAL",
+      "alert_type": "STRUCTURAL_RISK",
+      "habitation_code": "HAB-JK-BAR-05",
+      "is_active": true
+    },
+    {
+      "title": "Tehri Ridge Drainage & Hillside Erosion Advisory",
+      "message": "DEMO NOTICE: Blocked hillside drains and slope scouring reported in Devprayag Ridge; road maintenance crew dispatched.",
+      "severity": "MEDIUM",
+      "alert_type": "INFRASTRUCTURE_ALERT",
+      "habitation_code": "HAB-UK-TEH-02",
+      "is_active": true
+    }
+  ]
+}

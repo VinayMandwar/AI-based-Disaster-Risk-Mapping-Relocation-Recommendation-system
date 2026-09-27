@@ -1,0 +1,92 @@
+{
+  "type": "FeatureCollection",
+  "name": "aashray_demo_spatial_zones",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "HAB-UK-CHM-01",
+        "name": "Nandi Gram Tola (Red Zone)",
+        "zone_type": "RED_ZONE",
+        "hazard": "Landslide & Slope Erosion",
+        "risk_level": "CRITICAL",
+        "population": 480,
+        "disclaimer": "DEMO DATA — NOT OFFICIAL GOVERNMENT DATA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [79.3200, 30.4100],
+            [79.3280, 30.4100],
+            [79.3290, 30.4160],
+            [79.3210, 30.4150],
+            [79.3200, 30.4100]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SZ-UK-CHM-01",
+        "name": "Chamoli Plateau Relief Hub",
+        "zone_type": "SAFE_ZONE",
+        "capacity": 1200,
+        "current_occupancy": 150,
+        "safety_score": 94,
+        "disclaimer": "DEMO DATA — NOT OFFICIAL GOVERNMENT DATA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [79.3620, 30.4350]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "HAB-UP-VAR-03",
+        "name": "Varuna River Bank Pura (Flood Inundation & Bank Erosion Area)",
+        "zone_type": "RED_ZONE",
+        "hazard": "Riverine Flood & Severe Bank Erosion",
+        "risk_level": "CRITICAL",
+        "population": 1250,
+        "disclaimer": "DEMO DATA — NOT OFFICIAL GOVERNMENT DATA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [82.9720, 25.3320],
+            [82.9830, 25.3340],
+            [82.9820, 25.3410],
+            [82.9710, 25.3390],
+            [82.9720, 25.3320]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "SZ-UP-VAR-03",
+        "name": "Varanasi North Elevated Shelter Ground",
+        "zone_type": "SAFE_ZONE",
+        "capacity": 2500,
+        "current_occupancy": 320,
+        "safety_score": 91,
+        "disclaimer": "DEMO DATA — NOT OFFICIAL GOVERNMENT DATA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [83.0040, 25.3620]
+      }
+    }
+  ]
+}

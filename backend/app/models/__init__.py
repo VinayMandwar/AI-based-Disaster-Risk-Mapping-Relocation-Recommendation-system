@@ -1,0 +1,33 @@
+from app.models.entities import (
+    Base,
+    Role,
+    User,
+    Habitation,
+    PopulationProfile,
+    InfrastructureProfile,
+    HazardAssessment,
+    RiskScore,
+    CapacityAssessment,
+    SafeZone,
+    EmergencyFacility,
+    RelocationRecommendation,
+    Alert,
+    AuditLog,
+)
+
+__all__ = [
+    "Base",
+    "Role",
+    "User",
+    "Habitation",
+    "PopulationProfile",
+    "InfrastructureProfile",
+    "HazardAssessment",
+    "RiskScore",
+    "CapacityAssessment",
+    "SafeZone",
+    "EmergencyFacility",
+    "RelocationRecommendation",
+    "Alert",
+    "AuditLog",
+]
