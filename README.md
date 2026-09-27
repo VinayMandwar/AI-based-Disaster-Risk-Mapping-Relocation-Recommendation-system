@@ -217,3 +217,4 @@ docker compose down
 - Multi-objective linear optimization for emergency relocation allocation
 - Evacuation route analysis via pgRouting
 - Natural language Disaster Management AI Assistant
+# AI-based-Disaster-Risk-Mapping-Relocation-Recommendation-system
